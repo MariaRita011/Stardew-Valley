@@ -22,9 +22,10 @@
     -webkit-box-shadow: 1px 0px 117px 19px rgba(148, 96, 66, 0.75) inset;
     -moz-box-shadow: 1px 0px 117px 19px rgba(148, 96, 66, 0.75) inset;
     border: 8px ridge #BA601A;
+    width: 35rem;
 }
 
 .text {
-    font-size: 35px;
-    margin: 0.2rem;
+    font-size: 32px;
+    margin: 0.5rem;
 }

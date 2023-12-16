@@ -1,18 +1,35 @@
-import styles from "./modalIntro.module.css"
-const ModalIntro = ({ imagem, nome, texto,  }) => {
+'use client'
+import React, { useState, useEffect } from 'react';
+import styles from "./modalIntro.module.css";
 
+const ModalIntro = ({ imagem, nome, texto }) => {
+  const [aparecerTexto, setAparecerTexto] = useState('');
+  const [index, setIndex] = useState(0);
 
-    return (
-        <div className={styles.container}>
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      if (index < texto.length) {
+        setAparecerTexto((prevText) => prevText + texto[index]);
+        setIndex((prevIndex) => prevIndex + 1);
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 50); // ajuste a velocidade conforme necessário
 
-            <div className={styles.textoIntro}>
-                <p className={styles.text}>{texto}</p>
-            </div>
-            <div className={styles.imgNome}>
-            <img className={styles.imagem} src={imagem} width={200} height={200}/>
-            <h1 className={styles.titulo}>{nome}</h1>
-            </div>
+    return () => clearInterval(intervalId);
+  }, [texto, index]);
 
-        </div>)
-}
-export default ModalIntro
+  return (
+    <div className={styles.container}>
+      <div className={styles.textoIntro}>
+        <span className={styles.text}>{aparecerTexto}</span>
+      </div>
+      <div className={styles.imgNome}>
+        <img className={styles.imagem} src={imagem} width={200} height={200} alt="Imagem" />
+        <h1 className={styles.titulo}>{nome}</h1>
+      </div>
+    </div>
+  );
+};
+
+export default ModalIntro;

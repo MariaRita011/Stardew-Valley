@@ -1,36 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Stardew Valley Guide Repository 🌾
 
-## Getting Started
+Este repositório é uma homenagem ao encantador universo do jogo Stardew Valley. Vale ressaltar que este site foi concebido como uma ferramenta dedicada aos estudos da criadora.
 
-First, run the development server:
+## Seja Bem-Vindo(a)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Neste espaço, pretendo oferecer um guia completo (ou quase completo) do jogo Stardew Valley.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Por que da escolha do tema?
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Como criadora deste site, tenho uma paixão pelo jogo e a vontade de construir um espaço dedicado aos estudos. A combinação do útil com o agradável inspirou a criação deste site.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Sobre Stardew Valley
 
-## Learn More
+Stardew Valley é um jogo de simulação de fazenda, onde você herda uma fazenda antiga e tem a tarefa de restaurá-la. Cultive colheitas, crie animais, explore cavernas, interaja com os habitantes locais e muito mais.
 
-To learn more about Next.js, take a look at the following resources:
+## Recursos Principais
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- **Cultivo e Agricultura:** Plante e cuide de diversas colheitas para desenvolver sua fazenda.
+- **Mineração e Exploração:** Explore cavernas, enfrente monstros e encontre tesouros valiosos.
+- **Interação Social:** Conheça os habitantes locais, desenvolva amizades e até mesmo case-se.
+- **Eventos e Festivais:** Participe de eventos ao longo do ano na cidade.
+- **Artesanato e Construção:** Aprimore suas habilidades de artesanato e construa estruturas na fazenda.
+- **Pesca:** Pratique a pesca em diversos locais para coletar uma variedade de peixes.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Como Contribuir
 
-## Deploy on Vercel
+Se você quiser contribuir para este guia, sinta-se à vontade para fazer um fork do projeto, fazer melhorias e enviar um pull request. Toda ajuda é bem-vinda!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Divirta-se jogando e explorando a vida na fazenda!
