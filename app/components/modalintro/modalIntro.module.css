@@ -1,5 +1,3 @@
-@import url(https://db.onlinewebfonts.com/c/1b1432fe0f6a48c9122c20f307e6737d?family=Stardew+Valley+All+Caps);
-
 .container {
     display: flex;
     position: fixed;
@@ -28,4 +26,52 @@
 .text {
     font-size: 32px;
     margin: 0.5rem;
+}
+
+.close {
+    font-size: 40px;
+    margin-top: -1rem;
+    text-align: right;
+    font-family: personText;
+    color:#562D2A ;
+}
+
+.buttonClose {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.containerButtonClose {
+    justify-content: right;
+    display: flex;
+}
+
+.infos   {
+    background-image: url(/fundos/fundocaixaspersonagem.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    border-top: 8px ridge #BA601A;
+border-right: 8px ridge #BA601A;
+border-bottom: 8px ridge #BA601A;
+}
+
+.titulo {
+    background-image: url(/pngs/nomepersonagens.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    text-align: center;
+}
+
+.imagem {
+    background-color: #ddb880 ;
+    border: 8px ridge #BA601A;
+    border-radius: 4px;
 }
