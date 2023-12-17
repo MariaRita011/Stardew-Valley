@@ -13,6 +13,9 @@ export default function Home() {
 
   return (
     <main className={styles.containerPrincipal}>
+      <div className={styles.ContainerLogo}>
+<img src={'/pngs/mainlogo.png'} alt={'Logo'} width={600} />
+      </div>
       {
         modal ? (
 <ModalIntro
@@ -23,7 +26,7 @@ export default function Home() {
         ) : (
           null
         )
-      }
+      } 
       
     </main>
   )
